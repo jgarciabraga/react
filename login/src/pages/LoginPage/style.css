@@ -1,0 +1,49 @@
+#login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 2rem;
+}
+
+#login .form{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    width: 100%;
+    max-width: 380px;
+    border-radius: 10px;
+    padding: 1.0rem;
+}
+
+#login .field{
+    padding-bottom: 0.5rem;
+    width: 70%;
+}
+
+#login .field label{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 0.2rem;
+}
+
+#login .field input{
+    width: 100%;
+    border-radius: 5px;
+    height: 32px;
+}
+
+#login .actions{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+#login .actions button{
+    font-size: 16px;
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+}
