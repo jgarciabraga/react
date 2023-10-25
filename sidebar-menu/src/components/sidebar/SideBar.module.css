@@ -1,0 +1,22 @@
+#nav {
+  background-color: #15171c;
+  top: 0;
+  height: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navIcon {
+  margin-left: 2rem;
+  font-size: 2rem;
+  color: antiquewhite;
+  height: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#sideBarWrap {
+  width: 100%;
+}
